@@ -7,41 +7,41 @@
 
     <div>
         <label for="name">Name</label>
-        <input id="name" type="text" name="name">
+        <input id="name" type="text" name="name" required>
     </div>
 
     <div>
         <label for="email">Email</label>
-        <input id="email" type="email" name="email">
+        <input id="email" type="email" name="email" required>
     </div>
 
     <div>
         <label for="password">Password</label>
-        <input id="password" type="password" name="password">
+        <input id="password" type="password" name="password" required minlength="8" maxlength="16">
     </div>
 
     <div>
         <label for="confirm_password">confirm password</label>
-        <input id="confirm_password" type="confirm_password" name="confirm_password">
+        <input id="confirm_password" type="confirm_password" name="confirm_password" required>
     </div>
         <label for="date_of_birth">date of birth</label>
-        <input id="date_of_birth" type="date" name="date_of_birth">
+        <input id="date_of_birth" type="date" name="date_of_birth" required>
     <div>
 
         <div>
             <label for="weight">weight</label>
-            <input id="weight" type="number" name="weight">
+            <input id="weight" type="number" name="weight" required minlength="45">
         </div>
 
         <div>
             <label for="height">height</label>
-            <input id="height" type="number" name="height">
+            <input id="height" type="number" name="height" required minlength="120" maxlength="200">
         </div>
 
         <div>
             <label for="gender">gender</label>
-            <label><input id="male" type="radio" name="male-female">male</label>
-            <label><input id="female" type="radio" name="male-female">female</label>
+            <label><input id="male" type="radio" name="male-female" required>male</label>
+            <label><input id="female" type="radio" name="male-female" required>female</label>
         </div>
 
         <div>
